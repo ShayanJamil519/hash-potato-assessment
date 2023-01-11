@@ -1,0 +1,42 @@
+.StakingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50vmin;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    padding: 1vmin 0;
+}
+
+.StakingCard p {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.StakingCard h3 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    .StakingCard {
+        width: 95%;
+        padding: 1vmin 0;
+    }
+}

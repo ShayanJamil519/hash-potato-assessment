@@ -1,0 +1,73 @@
+.sidebar__container {
+    flex: 0.2;
+    border: 2px solid #545454;
+    background: #16162399;
+    backdrop-filter: blur(12.5px);
+    color: white;
+    font-family: "Jost", sans-serif;
+    padding: 0 2vmin 4vmin 4vmin;
+}
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+    margin-bottom: 5vmin;
+}
+
+.logo__container img {
+    width: 38px;
+    height: 40px;
+}
+
+.logo__container h1 {
+    font-family: Meedori-Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.SideBarBondsContainer {
+    margin-left: 5vmin;
+}
+
+.SideBarBondsContainer h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6a6971;
+}
+
+.SocialIcons__Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7vmin;
+}
+
+.SocialIcons__Container img {
+    object-fit: cover;
+    width: 25px;
+    height: 22px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .logo__container h1 {
+        font-size: 12px;
+    }
+    .sidebar__container {
+        padding: 2vmin 2vmin 4vmin 2vmin;
+        display: none;
+    }
+    .logo__container img {
+        width: 30px;
+        height: 35px;
+    }
+}

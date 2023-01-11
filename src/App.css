@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+@font-face {
+    font-family: Meedori-Sans;
+    src: url("/public/assets/Meedori-Sans-Regular.woff");
+}
+
+.main__container {
+    display: flex;
+    background: url("/public/assets/bg.png") no-repeat center center/cover;
+}

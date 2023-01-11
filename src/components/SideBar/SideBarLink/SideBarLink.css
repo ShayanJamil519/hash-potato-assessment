@@ -1,0 +1,26 @@
+.SideBarLink__Container {
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    margin-bottom: 3vmin;
+}
+
+.SideBarLink__Container img {
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.SideBarLink__Container p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .SideBarLink__Container p {
+        font-size: 14px;
+    }
+}

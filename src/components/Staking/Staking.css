@@ -1,0 +1,94 @@
+.staking__container {
+    flex: 0.8;
+}
+
+.Buttons__Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vmin;
+}
+
+.hamburger {
+    visibility: hidden;
+}
+
+.Buttons__Container svg {
+    color: white !important;
+    font-size: 35px !important;
+}
+
+.buy_wallet__BtnsContainer {
+    display: flex;
+    gap: 5vmin;
+}
+
+.buyBtn,
+.walletBtn {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ffffff;
+    width: 25vmin;
+    height: 50px;
+    background: #f89e1b;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.walletBtn {
+    background: transparent;
+    border: 2px solid #f89e1b;
+}
+
+.title {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 58px;
+    text-align: center;
+    color: #f89e1b;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.StakingCard__Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vmin;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 420px) {
+    .staking__container {
+        flex: 1;
+        padding-bottom: 8vmin;
+    }
+    .Buttons__Container {
+        padding: 5vmin 1vmin !important;
+        flex-direction: row-reverse;
+    }
+    .hamburger {
+        visibility: unset;
+    }
+    .buy_wallet__BtnsContainer {
+        display: flex;
+        gap: 3vmin;
+    }
+    .buyBtn,
+    .walletBtn {
+        font-size: 16px;
+        line-height: 38px;
+        width: 35vmin;
+        height: 45px;
+    }
+    .Buttons__Container {
+        justify-content: center;
+        gap: 5vmin;
+    }
+}
